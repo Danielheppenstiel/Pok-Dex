@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>PokèDex</title>
+</head>
+
+<body>
+    <main id="pokedexContainer">
+
+        <section id="top-display">
+
+            <form class="input-container">
+                <img src="./assets/icons8-pokeball-100.png" alt="" width="100px">
+                <input type="text" id="input-field" placeholder="Enter Pokèmon...">
+            </form>
+
+            <header>
+                <h1 id="pokemonName">Charmander</h1>
+                <span id="type"></span>
+                <span id="id-number"></span>
+            </header>
+
+            <div class="img-container">
+                <img src="" alt="" id="pokemon-img" width="150px">
+            </div>
+
+        </section>
+
+        <section id="bottom-display">
+
+            <div id="about-container" class="info-container">
+                <h2 class="info-title">About</h2>
+                <ul class="info-ul">
+                    <li class="about-item info-item" id="height">Height: </li>
+                    <li class="about-item info-item" id="weight">Weight: </li>
+                    <li class="about-item info-item" id="abilities">Abilities: </li>
+                </ul>
+            </div>
+
+            <div id="stats-container" class="info-container">
+                <h2 class="info-title">Base Stats</h2>
+                <ul class="info-ul">
+                    <li class="stat info-item" id="hp">hp</li>
+                    <li class="stat info-item" id="attack">Attack</li>
+                    <li class="stat info-item" id="defense">Defense</li>
+                    <li class="stat info-item" id="specialAttack">Special-Attack</li>
+                    <li class="stat info-item" id="specialDefense">Special-Defense</li>
+                    <li class="stat info-item" id="speed">Speed</li>
+                </ul>
+            </div>
+
+        </section>
+
+    </main>
+    
+    <script src="./src/storage.js"></script>
+    <script src="./src/pokemon.js"></script>
+    <script src="./src/UI.js"></script>
+    <script src="./src/main.js"></script>
+</body>
+
+</html>

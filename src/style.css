@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 64.5%;
+    /* MAIN COLOR THEME */
+    --orange: #ff0000;
+    --fire-red: #cc0000;
+    --water-blue: #3B4CCA;
+    --electric-yellow: #ffde00;
+    --grass-green: #b3a125;
+
+    /* SECONDARY COLOR SCHEME */
+    --black: #000000;
+    --red: : #CE2211;
+    --orange-red: #E54222;
+    --green: #37796C;
+    --dark-blue: #0C3348;
+    --sea-blue: #1C4CBD;
+    --light-blue: #5EBDFC;
+    --lightest-blue: #16D6FB;
+    --cream: #EFFCD5;
+    --white: #FFFFFF;
+    --gray: #DFDFDF;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    background-color: #000000;
+}
+
+#pokedexContainer {
+    max-height: 844px;
+    min-width: 390px;
+    max-width: 460px;
+    background: #0A285F;
+    display: grid;
+    grid-template-rows: 1fr 0.9fr;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    margin-top: 2%;
+}
+
+
+/* TOP SECTION */
+
+#top-display {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.7fr 0.5fr 1fr;
+    
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+#input-field {
+    height: 3rem;
+    width: 60%;
+    border-radius: 1.5rem;
+    border: none;
+    text-align: center;
+}
+
+header {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#pokemonName {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--white);
+    letter-spacing: 1px;
+}
+
+#type, #id-number {
+    place-self: center;
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    border: 2px solid var(--black);
+    border-radius: 1.5rem;
+    background: #0075BE;
+    color: var(--white);
+}
+
+.img-container {
+    width: 50%;
+    display: grid;
+    place-content: center;
+    border: 5px solid var(--black);
+    border-radius: 100%;
+    background-color: var(--white);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+
+
+/* BOTTOM SECTION */
+
+#bottom-display {
+    background: var(--gray);
+    border-radius: 2rem 2rem 2rem ;
+    display: grid;
+    border-top: 2px solid black;
+}
+
+.info-container {
+    padding: 2rem;
+}
+
+.info-title {
+    font-size: 2rem;
+    text-decoration: underline;
+    line-height: 5rem;
+    letter-spacing: 1px;
+}
+
+.info-ul {
+    line-height: 2rem;
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+
+.info-item {
+    text-decoration: none;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
