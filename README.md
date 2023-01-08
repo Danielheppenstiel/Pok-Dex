@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Github Pages]()
+- Live Site URL: [Github Pages](https://danielheppenstiel.github.io/Poke-Dex/)
 
 ## My process
 
@@ -49,4 +49,4 @@ I took this project as an opportunity to practice object oriented programming an
 
 - Website - [Daniel Heppenstiel](https://github.com/Danielheppenstiel)
 
-- Twitter - [@yDevWithDan](https://twitter.com/DevWithDan)
+- Twitter - [@DevWithDan](https://twitter.com/DevWithDan)
